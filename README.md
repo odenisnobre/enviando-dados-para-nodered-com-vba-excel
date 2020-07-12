@@ -12,9 +12,7 @@ A configuração do node-red é bem simples, usamos um um node http request, um 
 
 ## Conclusão
 
-## Help
 
-Caso precisem te ajuda ou tenham alguma sugestão, deixe seu comentário [Aqui](https://github.com/dedynobre/enviando-dados-para-nodered-com-vba-excel/issues).
 
 
 <h1 align="center">
@@ -37,13 +35,10 @@ Enviando dados para Node-Red usando VBA com Excel
 
 <hr />
 
-## Features
-[//]: # (Add the features of your project here:)
-This app features all the latest tools and practices in mobile development!
+## Recursos utilizados
 
-- ⚛️ **React Js** — A JavaScript library for building user interfaces
-- ⚛️ **React Native** — A lib that provides a way to create native apps for Android and iOS
-- 💹 **Node Js** — A web framework for Node Js
+- **Node-Red** - A versão do node-red utilizada foi a v1.10
+- **Excel** - O excel utilizado foi Excel 2016
 
 ## Getting started
 
@@ -53,3 +48,7 @@ Describe here the way to use/install your project
 ## License
 
 Para ver detalhes da licença, clique [Aqui](https://www.apache.org/licenses/LICENSE-2.0).
+
+## Help
+
+Caso precisem te ajuda ou tenham alguma sugestão, deixe seu comentário [Aqui](https://github.com/dedynobre/enviando-dados-para-nodered-com-vba-excel/issues).
