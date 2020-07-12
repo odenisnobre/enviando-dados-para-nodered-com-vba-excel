@@ -22,7 +22,7 @@ Caso precisem te ajuda ou tenham alguma sugestão, deixe seu comentário [Aqui](
 Enviando dados para Node-Red usando VBA com Excel
 </h1>
 
-<p align="center">A little description about your project</p>
+<p align="center">O objetivo é demonstrar de forma bem simples como enviar dados para o node-red usando o vba do Excel.</p>
 
 <p align="center">
   <a href="https://www.apache.org/licenses/LICENSE-2.0">
