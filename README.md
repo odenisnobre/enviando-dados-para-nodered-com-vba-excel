@@ -37,8 +37,8 @@ Enviando dados para Node-Red usando VBA com Excel
 
 ## Recursos utilizados
 
-- **Node-Red** - A versão do node-red utilizada foi a v1.10
-- **Excel** - O excel utilizado foi Excel 2016
+- **Node-Red** - Versão 1.1.0
+- **Excel** - Versã 2016 x64
 
 ## Getting started
 
