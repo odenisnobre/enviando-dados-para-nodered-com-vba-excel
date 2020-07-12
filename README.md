@@ -1,16 +1,4 @@
 
-## Objetivo
-
-O objetivo é demonstrar de forma bem simples como enviar dados para o node-red usando o vba do Excel.
-
-## Desenvolvimento
-
-#### Configuração Node-Red
-A configuração do node-red é bem simples, usamos um um node http request, um node http response um debug para poder visualizar os dados recebido:
-
-
-
-
 <h1 align="center">
 <br>
 Enviando dados para Node-Red usando VBA com Excel
