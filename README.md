@@ -96,9 +96,9 @@ End Sub
 
 ```
 
+## Conclusão
 
-
-
+Com esse pequeno 'exercício' demonstra como podemos enviar dados do excel facilmente para o Node-Red e estando estes dados no Node-Red podemos enviá-los para qualquer destino, como uma comunicação Modbustcp, OPC, PI Web API conforme já tem aqui em outros repositórios onde eu mostro como enviados dados do Node-Red para vários destinos diferentes.
 
 
 ## License
