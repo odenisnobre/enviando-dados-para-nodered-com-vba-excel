@@ -32,8 +32,7 @@ Enviando dados para Node-Red usando VBA com Excel
 
 [//]: # (Add your gifs/images here:)
 <div>
-  <img src="IMAGE_1_URL" alt="demo" height="425">
-  <img src="IMAGE_2_URL" alt="demo" height="425">
+  <img src="https://github.com/dedynobre/enviando-dados-para-nodered-com-vba-excel/blob/master/func.gif" alt="vba-node-red" height="425">
 </div>
 
 <hr />
@@ -53,4 +52,4 @@ Describe here the way to use/install your project
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
+Para ver detalhes da licença, clique [Aqui](https://www.apache.org/licenses/LICENSE-2.0).
