@@ -12,7 +12,6 @@ Enviando dados para Node-Red usando VBA com Excel
   </a>
 </p>
 
-[//]: # (Add your gifs/images here:)
 <div>
   <img src="https://github.com/dedynobre/enviando-dados-para-nodered-com-vba-excel/blob/master/func.gif" alt="vba-node-red" height="425">
 </div>
@@ -27,8 +26,11 @@ Enviando dados para Node-Red usando VBA com Excel
 ## Desenvolvimento
 
 #### Configuração Node-Red
-A configuração do node-red é bem simples, usamos um um node http request, um node http response um debug para poder visualizar os dados recebido:
+A configuração do node-red é bem simples, usamos um um node http request, um node http response um debug para poder visualizar os dados recebido.
 O método utilizado para a requisição http foi o *POST*.
+<div>
+  <img src="https://github.com/dedynobre/enviando-dados-para-nodered-com-vba-excel/blob/master/nrd1.png" alt="vba-node-red" height="425">
+</div>
 
 
 ## License
