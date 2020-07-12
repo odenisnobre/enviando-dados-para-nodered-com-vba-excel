@@ -58,8 +58,47 @@ response = hReq.ResponseText
 
 End Sub
 
+```
+
+Caso a orgem da requisição fosse ao contrátio, ou seja, ao invés de enviar dados(POST) gostaria de receber dados seria necessário fazer algumas mudanças.
+- Alterar o node http request para o método GET:
+<div>
+  <img src="https://github.com/dedynobre/enviando-dados-para-nodered-com-vba-excel/blob/master/ndr2.png" alt="vba-node-red" height="200">
+</div>
+
+- Alterar código vba para o cógido abaixo:
+```
+Attribute VB_Name = "Módulo1"
+Sub teste()
+
+Dim hReq As Object
+Dim i As Long
+
+'url do caminho http que irá receber a requisição
+strUrl = "http://localhost:1880/excel"
+
+'célula que contém os dados a serem enviados
+dados = Range("C3").Value
+
+'configuração a conexão
+Set hReq = CreateObject("MSXML2.XMLHTTP")
+    With hReq
+        .Open "POST", strUrl, False
+        .Send
+    End With
+
+
+response = hReq.ResponseText
+
+range("C3").value = response
+
+End Sub
 
 ```
+
+
+
+
 
 
 ## License
