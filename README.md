@@ -32,6 +32,35 @@ O método utilizado para a requisição http foi o *POST*.
   <img src="https://github.com/dedynobre/enviando-dados-para-nodered-com-vba-excel/blob/master/ndr1.png" alt="vba-node-red" height="200">
 </div>
 
+#### Configuração VBA
+```
+Attribute VB_Name = "Módulo1"
+Sub teste()
+
+Dim hReq As Object
+Dim i As Long
+
+'url do caminho http que irá receber a requisição
+strUrl = "http://localhost:1880/excel"
+
+'célula que contém os dados a serem enviados
+dados = Range("C3").Value
+
+'configuração a conexão
+Set hReq = CreateObject("MSXML2.XMLHTTP")
+    With hReq
+        .Open "POST", strUrl, False
+        .Send (dados) 'envia os dados
+    End With
+
+
+response = hReq.ResponseText
+
+End Sub
+
+
+```
+
 
 ## License
 
