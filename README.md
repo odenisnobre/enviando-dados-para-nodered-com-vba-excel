@@ -10,10 +10,6 @@ A configuração do node-red é bem simples, usamos um um node http request, um 
 
 
 
-## Conclusão
-
-
-
 
 <h1 align="center">
 <br>
@@ -40,9 +36,11 @@ Enviando dados para Node-Red usando VBA com Excel
 - **Node-Red** - Versão 1.1.0
 - **Excel** - Versã 2016 x64
 
-## Getting started
+## Desenvolvimento
 
-Describe here the way to use/install your project
+#### Configuração Node-Red
+A configuração do node-red é bem simples, usamos um um node http request, um node http response um debug para poder visualizar os dados recebido:
+O método utilizado para a requisição http foi o *POST*.
 
 
 ## License
