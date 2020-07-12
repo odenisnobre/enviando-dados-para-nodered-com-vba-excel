@@ -26,7 +26,7 @@ Enviando dados para Node-Red usando VBA com Excel
 
 <p align="center">
   <a href="https://www.apache.org/licenses/LICENSE-2.0">
-    <img src="https://img.shields.io/aur/license/apache" alt="License MIT">
+    <img src="https://img.shields.io/badge/apache-2.0-blue" alt="License MIT">
   </a>
 </p>
 
