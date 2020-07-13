@@ -62,7 +62,7 @@ End Sub
 
 Obs.: Para o código acima funcionar corretamente temos que adicionar a seguinte referência:
 <div>
-  <img src="https://github.com/dedynobre/enviando-dados-para-nodered-com-vba-excel/blob/master/func2.gif" alt="vba-node-red" height="425">
+  <img src="https://github.com/dedynobre/enviando-dados-para-nodered-com-vba-excel/blob/master/func2.gif" alt="vba-node-red" height="200">
 </div>
 
 
