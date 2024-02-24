@@ -67,7 +67,7 @@ Obs.: Para o código acima funcionar corretamente temos que adicionar a seguinte
 
 
 Caso a orgem da requisição fosse ao contrátio, ou seja, ao invés de enviar dados(POST) gostaria de receber dados seria necessário fazer algumas mudanças.
-- Alterar o node http request para o método GET:
+- Alterar o node http in para o método GET:
 <div>
   <img src="https://github.com/dedynobre/enviando-dados-para-nodered-com-vba-excel/blob/master/ndr2.png" alt="vba-node-red" height="600">
 </div>
